@@ -52,7 +52,7 @@ namespace ConsoleApp5
             //while (n > 0)
             //{
             //    r = n % 10;
-            //    sum = (sum * 10) + r;         for palindrome number
+            //    sum = (sum * 10) + r;         for palindrome ghnumber
             //    n = n / 10;
 
 
