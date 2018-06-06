@@ -44,5 +44,41 @@ namespace ConsoleApp5
                   
             }
         }
+         {
+            //int n, r, sum = 0, temp;
+            //Console.WriteLine("enter a number");
+            //n = int.Parse(Console.ReadLine());
+            //temp = n;
+            //while (n > 0)
+            //{
+            //    r = n % 10;
+            //    sum = (sum * 10) + r;         for palindrome number
+            //    n = n / 10;
+
+
+            //    //r = n % 10;
+            //    //sum = sum + (r * r * r);      for armstrong number
+            //    //n = n / 10;
+            //}
+            //if (temp == sum)
+            //{
+            //    Console.WriteLine("number is a palindrome number");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("number is not a palindrome number");
+            //}
+
+            // factorial number
+            int num, i, fact = 1;
+        Console.WriteLine("enter a number:");
+            num = int.Parse(Console.ReadLine());
+            for (i = 1; i <= num; i++)
+            {
+                fact = fact* i;
+    }
+
+    Console.WriteLine("Factorial of number" + num + "is:" + fact);
+        }
     }
 }
